@@ -61221,13 +61221,14 @@ $0(){return this.a.nt(this.b)},
 $S:0}
 A.oS.prototype={
 nq(a,b,c){return this.XQ(a,b,c)},
-XQ(a,b,c){var s=0,r=A.W(t.z),q,p
+XQ(a,b,c){var s=0,r=A.W(t.z),q,p,o
 var $async$nq=A.X(function(d,e){if(d===1)return A.T(e,r)
 while(true)switch(s){case 0:s=3
 return A.Y(A.DY(b,c),$async$nq)
 case 3:if(a.f==null){s=1
-break}p=t.X
-A.afd(a,"/quiz_general",p,p)
+break}p=c==null?"/quiz_general":"/quiz"
+o=t.X
+A.afd(a,p,o,o)
 case 1:return A.U(q,r)}})
 return A.V($async$nq,r)},
 rP(a,b){var s=this.e,r=J.ae(s)
